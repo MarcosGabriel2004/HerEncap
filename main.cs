@@ -20,6 +20,7 @@ class MainClass {
       Console.WriteLine("Figura: \t {0}", f);
       f.Print();
     }
+    Console.WriteLine("===========================================");
 
     c1.Raio = 4.3;
     c2.Raio = 2.0;
@@ -32,5 +33,19 @@ class MainClass {
       Console.WriteLine("Figura: \t {0}", f);
       f.Print();
     }
+    Console.WriteLine("===========================================");
+
+    c1.Raio = -4.3;
+    c2.Raio = 0.0;
+    r1.Altura = -3.0;
+    r1.Largura = 7.2;
+    r2.Altura = 1.8;
+    r2.Largura = 0.0;
+
+    foreach(Figura f in Figuras){
+      Console.WriteLine("Figura: \t {0}", f);
+      f.Print();
+    }
+    Console.WriteLine("===========================================");
   }
 }
